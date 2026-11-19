@@ -27,7 +27,6 @@
 ![DevOps](https://img.shields.io/badge/DevOps-Docker-5b6b8c?style=flat-square&logo=docker&logoColor=white&labelColor=2b2f36)
 ![DevOps](https://img.shields.io/badge/DevOps-Git-5b6b8c?style=flat-square&logo=git&logoColor=white&labelColor=2b2f36)
 ![Deploy](https://img.shields.io/badge/Deploy-Vercel-5b6b8c?style=flat-square&logo=vercel&logoColor=white&labelColor=2b2f36)
-![Editor](https://img.shields.io/badge/Editor-VS_Code-5b6b8c?style=flat-square&logo=visualstudiocode&logoColor=white&labelColor=2b2f36)
 
 ### Contact
 
