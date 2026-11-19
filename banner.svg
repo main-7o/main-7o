@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070d"/>
+      <stop offset="0.55" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#141b2d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#e8ecf5" stop-opacity="0.35"/>
+      <stop offset="0.6" stop-color="#9aa6c4" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#9aa6c4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moon" cx="0.38" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#d9dde6"/>
+      <stop offset="1" stop-color="#8d93a3"/>
+    </radialGradient>
+    <clipPath id="moonClip"><circle cx="960" cy="150" r="96"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#sky)"/>
+
+  <g fill="#ffffff">
+    <circle cx="80" cy="40" r="1.2" opacity="0.7"/>
+    <circle cx="190" cy="250" r="1" opacity="0.5"/>
+    <circle cx="320" cy="30" r="1.4" opacity="0.6"/>
+    <circle cx="470" cy="270" r="1" opacity="0.4"/>
+    <circle cx="560" cy="60" r="1.1" opacity="0.6"/>
+    <circle cx="640" cy="230" r="1.3" opacity="0.5"/>
+    <circle cx="720" cy="40" r="1" opacity="0.7"/>
+    <circle cx="790" cy="270" r="1.2" opacity="0.4"/>
+    <circle cx="1120" cy="60" r="1.3" opacity="0.6"/>
+    <circle cx="1160" cy="210" r="1" opacity="0.5"/>
+    <circle cx="1080" cy="280" r="1.1" opacity="0.4"/>
+    <circle cx="840" cy="110" r="0.9" opacity="0.5"/>
+    <circle cx="410" cy="150" r="0.8" opacity="0.35"/>
+    <circle cx="250" cy="120" r="0.9" opacity="0.35"/>
+  </g>
+
+  <circle cx="960" cy="150" r="190" fill="url(#glow)"/>
+  <circle cx="960" cy="150" r="96" fill="url(#moon)"/>
+  <g clip-path="url(#moonClip)" fill="#6f7686">
+    <circle cx="925" cy="118" r="22" opacity="0.28"/>
+    <circle cx="992" cy="176" r="30" opacity="0.22"/>
+    <circle cx="1005" cy="112" r="11" opacity="0.3"/>
+    <circle cx="915" cy="190" r="14" opacity="0.25"/>
+    <circle cx="958" cy="150" r="7" opacity="0.3"/>
+    <circle cx="1030" cy="145" r="9" opacity="0.2"/>
+    <circle cx="890" cy="150" r="9" opacity="0.18"/>
+  </g>
+  <circle cx="960" cy="150" r="96" fill="none" stroke="#ffffff" stroke-opacity="0.25" stroke-width="1.5"/>
+
+  <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+    <text x="80" y="118" font-size="30" fill="#9aa6c4" letter-spacing="1">Hi, I'm</text>
+    <text x="78" y="182" font-size="68" font-weight="700" fill="#f2f4f8" letter-spacing="2">MAIN</text>
+    <text x="80" y="226" font-size="22" fill="#b8c1d6">Full-Stack Developer</text>
+    <rect x="80" y="246" width="56" height="3" rx="1.5" fill="#d9dde6"/>
+  </g>
+</svg>
